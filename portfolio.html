@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio Overview - Ally Reynolds</title>
+    <meta
+      name="description"
+      content="The samples page in Ally Reynolds' portfolio, including her print and web work."
+    />
+    <meta property="og:title" content="Ally Reynold's Portfolio" />
+    <meta
+      property="og:description"
+      content="The samples page in Ally Reynolds' portfolio, including her print and web work."
+    />
+
+    <!-- <meta property="og:url" content="" /> -->
+    <!-- <link rel="canonical" href="" /> -->
+
+    <!-- <meta property="og:image" content=".../img/ally.png" /> -->
+    <!-- <meta property="og:image:alt" content="A smiling Ally Reynolds." /> -->
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="work-item-nav">
+            <a href="workitem.html?item=1">Item #1</a>
+          </li>
+          <li class="work-item-nav">
+            <a href="workitem.html?item=2">Item #2</a>
+          </li>
+          <li class="work-item-nav">
+            <a href="workitem.html?item=3">Item #3</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="portfolio-main">
+      <div class="highlight">
+        <div>
+          <h2>
+            01. Kids<br />
+            Sports<br />
+            Website
+          </h2>
+          <a href="workitem.html?item=1">see more</a>
+        </div>
+        <img
+          src="img/KidsSportsWebsite.png"
+          alt="Shows off a website for kids sports that has two kids playing on the front."
+        />
+      </div>
+      <div class="highlight invert">
+        <div>
+          <h2>
+            02. Pet<br />
+            Adoption<br />
+            Campaign
+          </h2>
+          <a href="workitem.html?item=2">see more</a>
+        </div>
+        <img
+          src="img/PetAdoptionCampaign.png"
+          alt="Shows off print pieces asking people to adpot pets instead of shopping for them."
+        />
+      </div>
+      <div class="highlight">
+        <div>
+          <h2>
+            03. Pub<br />
+            Website
+          </h2>
+          <a href="workitem.html?item=3">see more</a>
+        </div>
+        <img
+          src="img/PubWebsite.png"
+          alt="Shows off a website for a pub. The page has pictures of pizza and pizza-making."
+        />
+      </div>
+    </main>
+    <footer>
+      &copy; <span id="copyrightYear">2021</span> by Ally Reynolds.
+    </footer>
+    <script src="js/app.js"></script>
+    <script>
+      window.app.portfolio();
+    </script>
+  </body>
+</html>

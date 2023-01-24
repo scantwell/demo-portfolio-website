@@ -1,0 +1,35 @@
+[
+  {
+    "menu": "Sports web",
+    "title": "Kids Sports Website",
+    "smallImage": "../img/KidsSportsWebsite.png",
+    "smallImageAlt": "Shows off a website for kids sports that has two kids playing on the front.",
+    "largeImage": "../img/KidsSportsWebsiteFull.jpg",
+    "largeImageAlt": "Shows off a website for kids sports with multiple views.",
+    "projectText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nam vitae incidunt aperiam earum voluptatum consectetur unde explicabo dignissimos sint. Unde modi vero blanditiis fugit labore iusto cupiditate dicta voluptatum.",
+    "challengesText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nam vitae incidunt aperiam earum voluptatum consectetur unde explicabo dignissimos sint. Unde modi vero blanditiis fugit labore iusto cupiditate dicta voluptatum.",
+    "technologies": ["HTML", "CSS", "Javascript", "C#", "sports"]
+  },
+  {
+    "menu": "Pet Adoption Campaign",
+    "title": "Pet Adoption Campaign",
+    "smallImage": "../img/PetAdoptionCampaign.png",
+    "smallImageAlt": "Shows off print pieces asking people to adpot pets instead of shopping for them.",
+    "largeImage": "../img/PetAdoptionCampaignFull.jpg",
+    "largeImageAlt": "Shows off multiple print pieces asking people to adopt pets instead of shopping for them",
+    "projectText": "pet Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nam vitae incidunt aperiam earum voluptatum consectetur unde explicabo dignissimos sint. Unde modi vero blanditiis fugit labore iusto cupiditate dicta voluptatum.",
+    "challengesText": "pet Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nam vitae incidunt aperiam earum voluptatum consectetur unde explicabo dignissimos sint. Unde modi vero blanditiis fugit labore iusto cupiditate dicta voluptatum.",
+    "technologies": ["HTML", "CSS", "Javascript", "C#", "pet"]
+  },
+  {
+    "menu": "Pub Website",
+    "title": "Pub Website",
+    "smallImage": "../img/PubWebsite.png",
+    "smallImageAlt": "Shows off a website for a pub. The page has pictures of pizza and pizza making.",
+    "largeImage": "../img/PubWebsiteFull.jpg",
+    "largeImageAlt": "Shows off a website for a pub with multiple page views. The pages all have a pizza theme.",
+    "projectText": "pub Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nam vitae incidunt aperiam earum voluptatum consectetur unde explicabo dignissimos sint. Unde modi vero blanditiis fugit labore iusto cupiditate dicta voluptatum.",
+    "challengesText": "pub Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nam vitae incidunt aperiam earum voluptatum consectetur unde explicabo dignissimos sint. Unde modi vero blanditiis fugit labore iusto cupiditate dicta voluptatum.",
+    "technologies": ["HTML", "CSS", "Javascript", "C#", "pub"]
+  }
+]

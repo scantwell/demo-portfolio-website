@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ally's Portfolio</title>
+    <meta
+      name="description"
+      content="The portfolio page for Ally Reynolds, including samples and contact information."
+    />
+    <meta property="og:title" content="Ally Reynold's Portfolio" />
+    <meta
+      property="og:description"
+      content="The portfolio page for Ally Reynolds, including samples and contact information."
+    />
+
+    <!-- <meta property="og:url" content="" /> -->
+    <!-- <link rel="canonical" href="" /> -->
+
+    <!-- <meta property="og:image" content=".../img/ally.png" /> -->
+    <!-- <meta property="og:image:alt" content="A smiling Ally Reynolds." /> -->
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <h1>
+          Hi, I'm<br />
+          Ally
+        </h1>
+        <img src="img/Ally2.png" alt="A picture of me smiling." />
+      </div>
+      <div id="contact-me">
+        <h2>This is how to contact me</h2>
+        <form id="contact-form" action="" method="post">
+          <label for="name">Name: </label>
+          <input type="text" name="firstName" id="firstName" required />
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Message: </label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <div>
+            <button type="submit">Contact Ally</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+      <div id="portfolio-section">
+        <div>
+          <h2>This is some of my work</h2>
+          <a href="portfolio.html">see more</a>
+        </div>
+        <img
+          src="img/LandingPageCollage.png"
+          alt="My portfolio collage, including images of my adoption campaign, restaurant site, and kids sports site."
+        />
+      </div>
+      <div id="my-story">
+        <h2>This is my story</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
+          culpa. Eos magnam illum quaerat architecto dicta alias debitis
+          excepturi sint facilis blanditiis odit, consectetur nisi?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+          dicta, temporibus quis adipisci facere laboriosam nam voluptate
+          incidunt fuga voluptatibus?
+        </p>
+      </div>
+    </main>
+    <footer>&copy; <span id="copyrightYear">2021</span> by Ally Reynolds.</footer>
+    <script src="js/app.js"></script>
+    <script>
+      window.app.homepage();
+    </script>
+  </body>
+</html>
